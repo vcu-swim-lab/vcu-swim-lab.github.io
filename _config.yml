@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: SWIM Lab @ VCU 
+email: kdamevski@vcu.edu 
+description: > # this means to ignore newlines until "baseurl:"
+  The Software Improvement (SWIM) Lab at Virginia Commonwealth University's
+  Department of Computer Science is concerned with investigating issues related to software
+  maintenance and evolution. The lab is led by Dr. Kostadin Damevski.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://vcu-swim-lab.github.io" # the base hostname & protocol for your site
+github_username: vcu-swim-lab 
+
+# Build settings
+markdown: kramdown
