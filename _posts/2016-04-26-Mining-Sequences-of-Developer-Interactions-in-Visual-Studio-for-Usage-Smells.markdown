@@ -40,10 +40,6 @@ preprocessing steps, detailed in the paper below.
 - [MGFSM_Patterns.txt][patterns] -- the list of patterns mined from the dataset
 - [MGFSM_Pattern_Occurences.txt][occurences] -- descriptive statistics for each pattern, indexed by the line number of each pattern. Only patterns of length 8 and more are included
 
-### Developer Survey Results
-
-- [Survey Report][survey] -- survey of usage smells with 51 developers at ABB, Inc.
-
 ### Paper Preprint
 
 *Will be posted here when available*
@@ -51,4 +47,3 @@ preprocessing steps, detailed in the paper below.
 [mgfsm]: https://github.com/uma-pi1/mgfsm
 [patterns]: /datasets/mining-vs/MGFSM_Patterns.txt
 [occurences]: /datasets/mining-vs/MGFSM_Pattern_Occurences.txt
-[survey]: /datasets/mining-vs/SurveyOfVisualStudioUsageSmells.pdf
