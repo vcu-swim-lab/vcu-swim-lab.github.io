@@ -16,14 +16,13 @@ During a long maintenance period, software projects experience architectural ero
 
 ### Dataset Description
 
+The decomposition, for the following code bases is given below: Sando (v. 1.7), Apache httpd (v. 2.0), JEdit (v. 5.1.0), Apache OODT (v. 0.2), ArchStudio (v. 4) and ITK (v. 4.5.2). For each we provide the classes and methods for 10 clusters. Please contact us for datasets representing different numbers of clusters.
 
-- [MGFSM_Patterns.txt][patterns] -- the list of patterns mined from the dataset
-- [MGFSM_Pattern_Occurences.txt][occurences] -- descriptive statistics for each pattern, indexed by the line number of each pattern. Only patterns of length 8 and more are included
+- Sando [10_clusters_method.csv][sando_m]; [10_clusters_class.csv][sando_c]
 
 ### Paper Preprint
 
 *Will be posted here when available*
 
-[mgfsm]: https://github.com/uma-pi1/mgfsm
-[patterns]: /datasets/mining-vs/MGFSM_Patterns.txt
-[occurences]: /datasets/mining-vs/MGFSM_Pattern_Occurences.txt
+[sando_m]: /datasets/cchd/output_sando/10_clusters_method.csv
+[sando_c]: /datasets/cchd/output_sando/10_clusters_class.csv
