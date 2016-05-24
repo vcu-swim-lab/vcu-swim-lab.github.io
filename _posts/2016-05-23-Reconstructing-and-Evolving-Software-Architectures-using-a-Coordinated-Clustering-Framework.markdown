@@ -31,8 +31,8 @@ The decomposition, for the following code bases is given below: Sando (v. 1.7), 
 
 [sando_m]: /datasets/cchd/output_sando/10_clusters_method.csv
 [sando_c]: /datasets/cchd/output_sando/10_clusters_class.csv
-[httpd_m]: /datasets/cchd/output_httpd/10_clusters_method.csv
-[httpd_c]: /datasets/cchd/output_httpd/10_clusters_class.csv
+[httpd_m]: /datasets/cchd/output_apache/10_clusters_method.csv
+[httpd_c]: /datasets/cchd/output_apache/10_clusters_class.csv
 [jedit_m]: /datasets/cchd/output_jedit/10_clusters_method.csv
 [jedit_c]: /datasets/cchd/output_jedit/10_clusters_class.csv
 [oodt_m]: /datasets/cchd/output_oodt/10_clusters_method.csv
