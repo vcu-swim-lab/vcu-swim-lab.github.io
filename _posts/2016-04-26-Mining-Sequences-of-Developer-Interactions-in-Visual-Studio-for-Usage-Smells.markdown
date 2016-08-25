@@ -42,8 +42,9 @@ preprocessing steps, detailed in the paper below.
 
 ### Paper Preprint
 
-*Will be posted here when available*
+[DOI Link][preprint]
 
+[prepring]: http://dx.doi.org/10.1109/TSE.2016.2592905
 [mgfsm]: https://github.com/uma-pi1/mgfsm
 [patterns]: /datasets/mining-vs/MGFSM_Patterns.txt
 [occurences]: /datasets/mining-vs/MGFSM_Pattern_Occurences.txt
