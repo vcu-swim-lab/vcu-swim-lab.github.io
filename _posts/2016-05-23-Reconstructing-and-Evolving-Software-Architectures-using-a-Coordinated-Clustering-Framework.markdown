@@ -16,7 +16,18 @@ During a long maintenance period, software projects experience architectural ero
 
 ### Dataset Description
 
-The decomposition, for the following code bases is given below: Sando (v. 1.7), Apache httpd (v. 2.0), JEdit (v. 5.1.0), Apache OODT (v. 0.2), ArchStudio (v. 4) and ITK (v. 4.5.2). For each we provide the classes and methods for 10 clusters. Please contact us for datasets representing different numbers of clusters.
+For the [Sando Code Search Tool][sando_url] we provide all of the original and preprocessed input data, including
+the sources for v. 1.7 of this tool, and the variety of lexical and structural data that are used by CCHD.
+
+- Sources
+-- [Sando source v. 1.7][sando_src]
+- Derivatives
+-- [Sando call graph][sando_call_graph]
+-- [Sando NL terms per class][sando_terms]
+-- [Sando method to class map][sando_mmap]
+
+
+The decomposition produced by CCHD for the following code bases is provided: Sando (v. 1.7), Apache httpd (v. 2.0), JEdit (v. 5.1.0), Apache OODT (v. 0.2), ArchStudio (v. 4) and ITK (v. 4.5.2). For each we provide the classes and methods for 10 clusters. Please contact us for datasets representing different numbers of clusters.
 
 - Sando -- [10_clusters_method.csv][sando_m]; [10_clusters_class.csv][sando_c]
 - httpd -- [10_clusters_method.csv][httpd_m]; [10_clusters_class.csv][httpd_c]
@@ -41,3 +52,8 @@ The decomposition, for the following code bases is given below: Sando (v. 1.7), 
 [archstudio_c]: /datasets/cchd/output_archstudio/10_clusters_class.csv
 [itk_m]: /datasets/cchd/output_itk/10_clusters_method.csv
 [itk_c]: /datasets/cchd/output_itk/10_clusters_class.csv
+[sando_call_graph]: /datasets/cchd/input_sando/call_graph.txt
+[sando_terms]: /datasets/cchd/input_sando/class_terms.txt
+[sando_mmap]: /datasets/cchd/input_sando/method_to_class_map.txt
+[sando_src]: /datasets/cchd/input_sando/sando-1.7.zip
+[sando_url]: https://visualstudiogallery.msdn.microsoft.com/06f39a31-20ce-408c-afee-8a02b484db1c
