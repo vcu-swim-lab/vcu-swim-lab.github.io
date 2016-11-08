@@ -20,11 +20,11 @@ For the [Sando Code Search Tool][sando_url] we provide all of the original and p
 the sources for v. 1.7 of this tool, and the variety of lexical and structural data that are used by CCHD.
 
 - Sources
--- [Sando source v. 1.7][sando_src]
+    * [Sando source v. 1.7][sando_src]
 - Derivatives
--- [Sando call graph][sando_call_graph]
--- [Sando NL terms per class][sando_terms]
--- [Sando method to class map][sando_mmap]
+    * [Sando call graph][sando_call_graph]
+    * [Sando NL terms per class][sando_terms]
+    * [Sando method to class map][sando_mmap]
 
 
 The decomposition produced by CCHD for the following code bases is provided: Sando (v. 1.7), Apache httpd (v. 2.0), JEdit (v. 5.1.0), Apache OODT (v. 0.2), ArchStudio (v. 4) and ITK (v. 4.5.2). For each we provide the classes and methods for 10 clusters. Please contact us for datasets representing different numbers of clusters.
