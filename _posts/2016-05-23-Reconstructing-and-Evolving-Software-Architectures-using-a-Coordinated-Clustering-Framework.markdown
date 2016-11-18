@@ -25,7 +25,9 @@ the sources for v. 1.7 of this tool, and the variety of lexical and structural d
     * [Sando call graph][sando_call_graph]
     * [Sando NL terms per class][sando_terms]
     * [Sando method to class map][sando_mmap]
-
+- Scripts for Performance Measurement
+    * [Script for random generation of class data][runtime_class]
+    * [Script for random generation of term data][runtime_term]
 
 The decomposition produced by CCHD for the following code bases is provided: Sando (v. 1.7), Apache httpd (v. 2.0), JEdit (v. 5.1.0), Apache OODT (v. 0.2), ArchStudio (v. 4) and ITK (v. 4.5.2). For each we provide the classes and methods for 10 clusters. Please contact us for datasets representing different numbers of clusters.
 
@@ -57,3 +59,5 @@ The decomposition produced by CCHD for the following code bases is provided: San
 [sando_mmap]: /datasets/cchd/input_sando/method_to_class_map.txt
 [sando_src]: /datasets/cchd/input_sando/sando-1.7.zip
 [sando_url]: https://visualstudiogallery.msdn.microsoft.com/06f39a31-20ce-408c-afee-8a02b484db1c
+[runtime_class]: /datasets/cchd/scripts/runtime_vary_class.m
+[runtime_term]: /datasets/cchd/scripts/runtime_vary_term.m
