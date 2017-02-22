@@ -40,8 +40,9 @@ The decomposition produced by CCHD for the following code bases is provided: San
 
 ### Paper Preprint
 
-*Will be posted here when available*
+[DOI Link][preprint]
 
+[preprint]: http://dx.doi.org/10.1007/s10515-017-0211-8
 [sando_m]: /datasets/cchd/output_sando/10_clusters_method.csv
 [sando_c]: /datasets/cchd/output_sando/10_clusters_class.csv
 [httpd_m]: /datasets/cchd/output_apache/10_clusters_method.csv
