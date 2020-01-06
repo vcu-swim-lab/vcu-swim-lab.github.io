@@ -1,6 +1,6 @@
 ---
 layout: default 
-title: About 
+title: Software Improvement Lab @ VCU 
 ---
 
   <div class="home">
@@ -17,14 +17,14 @@ title: About
       <ul>
          <li>Recommendation systems for software engineering</li>
          <li>Modeling software changes over time</li>
-         <li>Mining and understanding informal software documentation available on the Web</li>          
+         <li>Mining and understanding software development related conversations</li>          
          <li>Mining of software repositories</li>
          <li>Software architectures</li>
          <li>Empirical studies</li>
       </ul>
       <hr>
 
-      <br>
+<!--       <br>
       <h3><b>News</b></h3>
       <ul>
           <li><i>Feb 2019:<i> Congratulations to John Coogle for successfully defending his M.S. Thesis</i>
@@ -34,22 +34,23 @@ title: About
           <li><i>Mar 2018:</i> Congrats to Chase Greco and Tyler Haden for their paper on the <a href="http://damevski.github.io/files/greco_icse18_preprint.pdf">StackInTheFlow tool</a> @ ICSE 2018 in Gothenburg, Sweden.</li> 
           <li><i>Jan 2018:</i> Our TSE paper, <a href="https://doi.org/10.1109/TSE.2017.2748134">"Predicting Future Developer Behavior in the IDE Using Topic Models"</a>, was selected as one of the journal-first publication to be presented at the
           <a href="https://www.icse2018.org/">International Conference on Software Engineering (ICSE 2018)</a> in Gothenburg, Sweden.</li> 
-      <hr>
+      <hr> -->
 
       <br>
       <h3><b>People</b></h3>
       <ul> 
         <li><a href="http://damevski.github.io">Dr. Kostadin Damevski</a></li>
-        <li>Manziba Akanda Nishi -- Ph.D. Student</li>
         <li>Agnieszka Ciborowska -- Ph.D. Student</li>
+        <li>Mia Mohammad Imran -- Ph.D. Student</li>
         <li><i>...we are actively looking for people to join SWIM Lab. please contact Dr. Damevski if interested.</i></li>
       </ul>
       <h4><b>Alumni</b><h4>
       <ul>
+        <li>Manziba Akanda Nishi -- Ph.D. Student</li>
         <li>John Coogle -- M.S. Student -- ZoomCharts</li>
         <li>Chase Greco -- M.S. Student -- CoStar</li>
         <li>Tyler Haden -- B.S. Student -- Ippon</li>
-        <li>Jared Beller -- High School Student (Deep Run), 2018</li>        
+        <li>Jared Beller -- High School Student (Deep Run), 2018 </li>        
         <li>Kevin Ngo -- High School Student (Deep Run), 2017 -- Carnegie Mellon University</li>
       </ul>
       <hr>
@@ -57,22 +58,28 @@ title: About
       <br>
       <h3><b>Recent Projects</b></h3>
       <ul>
+        <li><b>Modeling Software Changes Over Time</b> -- Using changesets and edit histories to create models that can predict future activities, extract high-level actions.</li>
+          <ul>
+            <li>Changeset-based feature location. [<a href="http://damevski.github.io/files/corley_online_lda_2018_preprint.pdf">TSE 2018</a>]</li>
+          </ul>
+
+
+        <li><b>Mining and Understanding Informal Developer Communications</b> -- Extracting information from various
+        sources of developer communication, such as Q&A sites (e.g. StackOverflow), multi-participant chat (e.g. Slack), issue trackers, etc. in order to make it more accessible to developers or improve its quality.</li>
+          <ul>
+            <li>Slack Q&A Chats. [<a href="http://damevski.github.io/files/chatterjee-msr19-preprint.pdf">MSR 2019</a>]</li>
+            <li>Software Development Tutorials. [<a href="http://damevski.github.io/files/nishi-msr19-preprint.pdf">MSR 2019 - Challenge</a>]
+              [<a href="http://damevski.github.io/files/tutver_jsep2019_preprint.pdf">JSEP 2019</a>] </li>
+            <li>Examining available sources. [<a href="http://damevski.github.io/files/chatterjee-saner17.pdf">SANER 2017 ERA</a>] </li>
+            <li>Knowledge graphs. [<a href="http://damevski.github.io/files/sotags_jss19_preprint.pdf">JSS 2019</a>]
+          </ul> 
+
         <li><b>Interaction-Aware Recommendation Systems for Software Engineers</b> -- Recommendations are vital to improving complex cognitive tasks like software development. This project investigates integrating developer activity into recommendation systems.</li>
           <ul>
             <li>Predicting future activity of a software developer. [<a href="https://doi.org/10.1109/TSE.2017.2748134">IEEE TSE 2017</a>]</li>
             <li>StackInTheFlow behavior-driven recommendation system. [<a href="http://damevski.github.io/files/greco_icse18_preprint.pdf">ICSE 2018 Tool</a>]
           </ul>
-        <li><b>Mining and Understanding Informal Developer Communications</b> -- Extracting information from various
-        sources of developer communication, such as Q&A sites (e.g. StackOverflow), multi-participant chat (e.g. Slack), issue trackers, etc. in order to make it more accessible to developers or improve its quality.</li>
-          <ul>
-            <li>Slack Q&A Chats. [MSR 2019]</li>
-            <li>Software Development Tutorials. [MSR 2019 - Challenge]</li>
-            <li>Examining available sources. [<a href="http://damevski.github.io/files/chatterjee-saner17.pdf"</a>SANER 2017 ERA</a>] </li>
-          </ul> 
-        <li><b>Modeling Software Changes Over Time</b> -- Using changesets and edit histories to create models that can predict future activities, extract high-level actions.</li>
-          <ul>
-            <li>Changeset-based feature location. [<a href="http://damevski.github.io/files/corley_online_lda_2018_preprint.pdf">TSE 2018</a>]</li>
-          </ul>
+
       </ul>
       <hr>
 
@@ -82,7 +89,7 @@ title: About
         <li><b>Analysis of Developer Activity Logs</b> -- Leveraging large scale datasets of developer micro-interactions with the IDE, in the field, to understand how they perform certain software engineering tasks. This research leads to recommendation systems that integrate such complex usage data.</li>
           <ul>
             <li>Detecting opportunistic reuse of code from the web. [<a href="http://damevski.github.io/files/ciborowska_msr18_preprint.pdf">MSR 2018</a>]
-            <li>Prioritizing investigation of exceptions. [<a href="https://doi.org/10.1109/ICSME.2017.62">ICSME 2017 Industry</a>]</li>
+            <li>Prioritizing investigation of exceptions. [<a href="https://doi.org/10.1109/ICSME.2017.62">ICSME 2017 Industry</a>] [<a href="http://damevski.github.io/files/nhdp_jase19_preprint.pdf">JASE 2019</a>]</li>
             <li>Detecting plagirism on class projects. [<a href="http://dx.doi.org/10.1109/TLT.2017.2720171">IEEE TLT 2017</a>]</li>
             <li>Extracting high-level IDE behaviors. [<a href="http://dx.doi.org/10.1109/TSE.2016.2592905">IEEE TSE 2016</a>][<a href="http://damevski.github.io/files/damevski_msr_16.pdf">MSR 2016</a>]</li>
             <li>Understanding how developers locate features using modern IDEs. [<a href="http://www.springer.com/computer/swe/journal/10664">EMSE 2015</a>]</li>
@@ -102,9 +109,9 @@ title: About
       <h3><b>Software</b></h3>
       <p><i>In order of most to least recent.</i></p>
       <ul> 
+        <li><a href="https://plugins.jetbrains.com/plugin/9653-stackintheflow">StackInTheFlow</a> -- StackInTheFlow is a recommendation system that suggests Stack Overflow articles in IntelliJ.</i></li>
         <li><a href="https://knowho.ws">KnowHows</a> -- KnowHows is a Slack app that allows developers to query for channel participants that have knowledge
         of a specific development topic or API.</li>
-        <li><a href="https://plugins.jetbrains.com/plugin/9653-stackintheflow">StackInTheFlow</a> -- StackInTheFlow is a recommendation system that suggests Stack Overflow articles in IntelliJ.</i></li>
       	<li><a href="https://visualstudiogallery.msdn.microsoft.com/06f39a31-20ce-408c-afee-8a02b484db1c">Sando Code Search Tool</a> -- Sando is a Visual Studio extension that helps developers locate relevant code in a large code base. (<i>over 22K downloads, as of February 2016</i>)</li>
         <li><a href="https://play.google.com/store/apps/details?id=sysnetlab.android.sdc">SenSee Android App</a> -- SenSee is an Android application that collects data from each of the device's sensors and includes the ability to store this data on DropBox.</li>
       </ul>
