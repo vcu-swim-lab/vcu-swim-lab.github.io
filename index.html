@@ -16,11 +16,9 @@ title: Software Improvement Lab @ VCU
  
       <ul>
          <li>Recommendation systems for software engineering</li>
-         <li>Modeling software changes over time</li>
-         <li>Mining and understanding software development related conversations</li>          
-         <li>Mining of software repositories</li>
-         <li>Software architectures</li>
-         <li>Empirical studies</li>
+         <li>Text analysis for software engineering</li>
+         <li>Change-based modeling of software repositories</li>
+         <li>Human and empirical studies</li>
       </ul>
       <hr>
 
@@ -46,10 +44,12 @@ title: Software Improvement Lab @ VCU
       </ul>
       <h4><b>Alumni</b><h4>
       <ul>
-        <li>Manziba Akanda Nishi -- Ph.D. Student</li>
+        <li>Manziba Akanda Nishi -- Ph.D. Student -- LayerFive</li>
         <li>John Coogle -- M.S. Student -- ZoomCharts</li>
         <li>Chase Greco -- M.S. Student -- CoStar</li>
-        <li>Tyler Haden -- B.S. Student -- Ippon</li>
+        <li>Tyler Haden -- B.S. Student -- University of Virginia</li>
+        <li>James Hall -- High School Student (Maggie Walker), 2020 </li>   
+        <li>Sudeep Dharanikota -- High School Student (Deep Run), 2020 </li>   
         <li>Jared Beller -- High School Student (Deep Run), 2018 </li>        
         <li>Kevin Ngo -- High School Student (Deep Run), 2017 -- Carnegie Mellon University</li>
       </ul>
@@ -58,26 +58,26 @@ title: Software Improvement Lab @ VCU
       <br>
       <h3><b>Recent Projects</b></h3>
       <ul>
-        <li><b>Modeling Software Changes Over Time</b> -- Using changesets and edit histories to create models that can predict future activities, extract high-level actions.</li>
+        <li><b>Changeset-based Bug Localization and Feature Location</b> -- Using changesets (i.e., diffs) as they are committed into a repository to create up-to-date models that can be searched for bug localization or feature location.</li>
           <ul>
             <li>Changeset-based feature location. [<a href="http://damevski.github.io/files/corley_online_lda_2018_preprint.pdf">TSE 2018</a>]</li>
           </ul>
 
 
-        <li><b>Mining and Understanding Informal Developer Communications</b> -- Extracting information from various
+        <li><b>Mining and Understanding Developer Conversations</b> -- Extracting information from various
         sources of developer communication, such as Q&A sites (e.g. StackOverflow), multi-participant chat (e.g. Slack), issue trackers, etc. in order to make it more accessible to developers or improve its quality.</li>
           <ul>
-            <li>Slack Q&A Chats. [<a href="http://damevski.github.io/files/chatterjee-msr19-preprint.pdf">MSR 2019</a>]</li>
+            <li>Mining Opinions. [<a href="">ICSE 2021</a>]</li>
+            <li>Slack Q&A Chats. [<a href="http://damevski.github.io/files/chatterjee-msr19-preprint.pdf">MSR 2019</a>][<a href="http://damevski.github.io/files/posthoc_tosem2021.pdf">TOSEM 2021</a>]</li>
             <li>Software Development Tutorials. [<a href="http://damevski.github.io/files/nishi-msr19-preprint.pdf">MSR 2019 - Challenge</a>]
               [<a href="http://damevski.github.io/files/tutver_jsep2019_preprint.pdf">JSEP 2019</a>] </li>
             <li>Examining available sources. [<a href="http://damevski.github.io/files/chatterjee-saner17.pdf">SANER 2017 ERA</a>] </li>
             <li>Knowledge graphs. [<a href="http://damevski.github.io/files/sotags_jss19_preprint.pdf">JSS 2019</a>]
           </ul> 
 
-        <li><b>Interaction-Aware Recommendation Systems for Software Engineers</b> -- Recommendations are vital to improving complex cognitive tasks like software development. This project investigates integrating developer activity into recommendation systems.</li>
+        <li><b>Automatically Posing Clarifying Questions</b> -- Using clarifying questions to improve the quality of software developer documentation, bug reporting, and searching for information. 
           <ul>
-            <li>Predicting future activity of a software developer. [<a href="https://doi.org/10.1109/TSE.2017.2748134">IEEE TSE 2017</a>]</li>
-            <li>StackInTheFlow behavior-driven recommendation system. [<a href="http://damevski.github.io/files/greco_icse18_preprint.pdf">ICSE 2018 Tool</a>]
+            <li>Improving Bug Reports. [<a href="http://damevski.github.io/files/bugautoq_msr21_preprint.pdf">MSR 2021</a>]</li>
           </ul>
 
       </ul>
@@ -86,6 +86,13 @@ title: Software Improvement Lab @ VCU
       <br>
       <h3><b>Older Projects</b></h3>
       <ul>
+
+        <li><b>Interaction-Aware Recommendation Systems for Software Engineers</b> -- Recommendations are vital to improving complex cognitive tasks like software development. This project investigates integrating developer activity into recommendation systems.</li>
+          <ul>
+            <li>Predicting future activity of a software developer. [<a href="https://doi.org/10.1109/TSE.2017.2748134">IEEE TSE 2017</a>]</li>
+            <li>StackInTheFlow behavior-driven recommendation system. [<a href="http://damevski.github.io/files/greco_icse18_preprint.pdf">ICSE 2018 Tool</a>]
+          </ul>
+
         <li><b>Analysis of Developer Activity Logs</b> -- Leveraging large scale datasets of developer micro-interactions with the IDE, in the field, to understand how they perform certain software engineering tasks. This research leads to recommendation systems that integrate such complex usage data.</li>
           <ul>
             <li>Detecting opportunistic reuse of code from the web. [<a href="http://damevski.github.io/files/ciborowska_msr18_preprint.pdf">MSR 2018</a>]
@@ -93,7 +100,8 @@ title: Software Improvement Lab @ VCU
             <li>Detecting plagirism on class projects. [<a href="http://dx.doi.org/10.1109/TLT.2017.2720171">IEEE TLT 2017</a>]</li>
             <li>Extracting high-level IDE behaviors. [<a href="http://dx.doi.org/10.1109/TSE.2016.2592905">IEEE TSE 2016</a>][<a href="http://damevski.github.io/files/damevski_msr_16.pdf">MSR 2016</a>]</li>
             <li>Understanding how developers locate features using modern IDEs. [<a href="http://www.springer.com/computer/swe/journal/10664">EMSE 2015</a>]</li>
-          </ul>    
+          </ul>  
+
         <li><b>Code Search (Feature Location)</b></li> 
           <ul>
             <li>Changeset-based feature location. [<a href="http://damevski.github.io/files/corley_online_lda_2018_preprint.pdf">TSE 2018</a>]</li>
@@ -107,11 +115,13 @@ title: Software Improvement Lab @ VCU
 
       <br>
       <h3><b>Software</b></h3>
-      <p><i>In order of most to least recent.</i></p>
+      <ul>
+        <li>TBA</li>
+      </ul>
+
+      <p><i>No longer maintained:</i></p>
       <ul> 
         <li><a href="https://plugins.jetbrains.com/plugin/9653-stackintheflow">StackInTheFlow</a> -- StackInTheFlow is a recommendation system that suggests Stack Overflow articles in IntelliJ.</i></li>
-        <li><a href="https://knowho.ws">KnowHows</a> -- KnowHows is a Slack app that allows developers to query for channel participants that have knowledge
-        of a specific development topic or API.</li>
       	<li><a href="https://visualstudiogallery.msdn.microsoft.com/06f39a31-20ce-408c-afee-8a02b484db1c">Sando Code Search Tool</a> -- Sando is a Visual Studio extension that helps developers locate relevant code in a large code base. (<i>over 22K downloads, as of February 2016</i>)</li>
         <li><a href="https://play.google.com/store/apps/details?id=sysnetlab.android.sdc">SenSee Android App</a> -- SenSee is an Android application that collects data from each of the device's sensors and includes the ability to store this data on DropBox.</li>
       </ul>
